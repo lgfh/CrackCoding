@@ -12,9 +12,9 @@ Q: Implement an algorithm to determine if a string has all unique characters. Wh
     如果字符串中有重复，则其前后出现的位置不一致
     经过验证，即使包含一些特殊的符号，也可以正确判断，每个符号对应其ascii码（猜测）
     别忘记判断传入的字符串非空
-    即使字符串中包含空格也不影响判断，--忘记字符串中的空格怎么去掉了--已解决
+    即使字符串中包含空格也不影响判断，--忘记字符串中的空格怎么去掉了--已查询解决
 
-    trim只能去掉首位的空格，要去掉所有的字符串中的空格 利用replace/reolaceall
+    # trim只能去掉首尾的空格，要去掉所有的字符串中的空格 利用replace/replaceall
  */
 
 
